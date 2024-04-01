@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-15T01:21:04 BDT" name="Surefire suite" finished-at="2024-03-15T01:21:23 BDT" duration-ms="19259">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@726a17c4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-03-15T01:21:04 BDT" name="Surefire test" finished-at="2024-03-15T01:21:23 BDT" duration-ms="19259">
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runners.TestRunner@726a17c4]" started-at="2024-03-15T01:21:04 BDT" name="setUpClass" finished-at="2024-03-15T01:21:05 BDT" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@726a17c4]" started-at="2024-03-15T01:21:05 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-15T01:21:23 BDT" duration-ms="18346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Count Sum of columns"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tables"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@726a17c4]" started-at="2024-03-15T01:21:05 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-15T01:21:23 BDT" duration-ms="18025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Alert Handling"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Alerts"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@726a17c4]" started-at="2024-03-15T01:21:23 BDT" name="tearDownClass" finished-at="2024-03-15T01:21:23 BDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
